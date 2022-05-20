@@ -1,1 +1,15 @@
-* {background-color: rgb(255, 255, 224);}
+body {
+    background-color: rgb(255, 255, 224) ;
+}
+
+h1, h3 {
+    text-align: center;
+    color: red;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text {
+    font-style: italic;
+}
