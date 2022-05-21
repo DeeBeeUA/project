@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box;
+    
 }
 
 
 
 .reletive {
     display: inline-block;
+    vertical-align: top;
     position: relative;
     width: 250px;
     height: 250px;
@@ -22,9 +24,9 @@
 }
 
 .exemple {
-    display:inline-block;
+    display: inline-block;
+    vertical-align: top;
     position: relative;
-    margin-top: 10px;
     border: 1px solid black;
     width: 250px;
     height: 250px;
@@ -60,6 +62,7 @@
 
 .vertical-align {
     display: inline-block;
+    vertical-align: top;
     padding-right: 50px;
     width: 500px;
     height: 330px;
