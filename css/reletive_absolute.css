@@ -4,8 +4,8 @@
 
 .reletive {
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
     background-color: aquamarine;
 }
 
@@ -14,6 +14,42 @@
     width: 50px;
     height: 50px;
     border: 1px solid black;
-    top: 50px;
+    top: 100px;
     left: 100px;
+}
+
+.exemple {
+    position: relative;
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 311px;
+    height: 300px;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    
+    
+}
+
+.box0 {
+    background-color:blue;
+    margin: 30px;
+    z-index: 1;
+}
+
+.box1 {
+    background-color:blueviolet;
+    margin: 60px;
+    z-index: 2;
+    
+}
+
+.box2 {
+    background-color:brown;
+    margin: 90px;
+    z-index: 3;
 }
