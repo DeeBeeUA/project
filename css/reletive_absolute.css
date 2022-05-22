@@ -78,5 +78,13 @@
     margin-right: 20px;
 }
 
+.ex {
+    width: 15vw;
+    height: 30vh;
+    margin-top: 20px;
+    
+    border: 1px solid black;
+}
+
 
 
